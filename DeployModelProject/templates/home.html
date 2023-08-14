@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Prediction</title>
+    <link rel="stylesheet" href="static/css/formstyle.css">
+</head>
+<body>
+    <main class="loginPage">
+        <section class="loginPage__section-wrapper">
+          <div class="loginPage__div-container">
+            <div class="loginPage__div">
+              <header class="loginPage__header">
+                <h3 class="loginPage__h3-text">Loan Eligibility Application</h3>
+                <p class="loginPage__p-subtext">
+                  Determine your eligibilty now
+                </p>
+              </header>
+                  <form class="loginPage__form" method="GET" action="result">
+                    <div class="loginPage__div-label">Current Loan Amount</div>
+                    <div class="loginPage__div-inputContainer">
+                      <input
+                        name="Current Loan Amount"
+                        type="number"
+                        class='loginPage__input-name'
+                      />
+                    </div>
+                    <div class="loginPage__div-label">Term</div>
+                    <div class="loginPage__div-inputContainer">
+                      <select class='loginPage__input-name' name = 'Term'>
+
+                        <option></option>
+                        <option value="0">Short Term</option>
+                        <option value="1">Long Term</option>
+                        
+                      </select>
+                    </div>
+                    <div class="loginPage__div-label">Credit Score</div>
+                    <div class="loginPage__div-inputContainer">
+                      <input
+                        name="Credit Score"
+                        type="number"
+                        class='loginPage__input-name'
+                      />
+                    </div>
+                    <div class="loginPage__div-label">Annual Income</div>
+                    <div class="loginPage__div-inputContainer">
+                      <input
+                        name="Annual Income"
+                        type="number"
+                        class='loginPage__input-name'
+                      />
+                    </div>
+    
+                    <div class="loginPage__div-label">Home Ownership</div>
+                    <div class="loginPage__div-inputContainer">
+                      <select class='loginPage__input-name' name="Home Ownership">
+                        <option></option>
+                        <option value="0">Mortgage</option>
+                        <option value="2">Own home</option>
+                        <option value="1">Rent</option>
+                      </select>
+                    </div>
+
+                    <div class="loginPage__div-label">Purpose</div>
+                    <div class="loginPage__div-inputContainer">
+                      <select class='loginPage__input-name' name="Purpose">
+                        <option></option>
+                        <option value="0">Business Loan</option>
+                        <option value="1">Buying a house</option>
+                        <option value="2">Buying a car</option>
+                        <option value="3">Debt Consolidation</option>
+                        <option value="4">Educational Expenses</option>
+                        <option value="5">Home Improvement</option>
+                        <option value="6">Major Purchase</option>
+                        <option value="7">Medical Bills</option>
+                        <option value="9">Renewable Energy</option>
+                        <option value="10">Small Business</option>
+                        <option value="11">Take a trip</option>
+                        <option value="12">Moving cost</option>
+                        <option value="13">Vacation</option>
+                        <option value="14">Wedding</option>
+                        <option value="8">Others</option>
+                        
+                      </select>
+                    </div>
+                    <div class="loginPage__div-label">Monthly Debt</div>
+                    <div class="loginPage__div-inputContainer">
+                      <input
+                        name="Monthly Debt"
+                        type="number"
+                        class='loginPage__input-name'
+                      />
+                    </div>
+                    
+                    <div class="loginPage__div-label">Years of Credit History</div>
+                    <div class="loginPage__div-inputContainer">
+                      <input
+                        name="Years of Credit History"
+                        type="number"
+                        class='loginPage__input-name'
+                      />
+                    </div>
+
+                    <div class="loginPage__div-label">Current Credit Balance</div>
+                    <div class="loginPage__div-inputContainer">
+                      <input
+                        name="Current Credit Balance"
+                        type="number"
+                        class='loginPage__input-name'
+                      />
+                    </div>
+                    <div class="loginPage__div-label">Years in current job</div>
+                    <div class="loginPage__div-inputContainer">
+                      <input
+                        name="Years in current job"
+                        type="number"
+                        class='loginPage__input-name'
+                      />
+                    </div>
+                    
+                    
+                    <button
+                      type="submit"
+                      class="loginPage__btn btn-blue"
+                      
+                    >
+                    
+                      Submit 
+                  
+                    </button>
+                  </form>
+            </div>
+            
+          </div>
+        </section>
+      </main>
+</body>
+</html>
